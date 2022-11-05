@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: blue;
+    width: 448px;
+    height: 100px;
+    text-align: left;
+ 
+
+}
+
+.header{
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+.section p {
+    color: white;
+    margin: 10px;
+    font-size: 10px;
+}
+.section {
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+}
+
+.main {
+ /* border: 1px saddlebrown black; */
+ display: grid;
+ grid-template-columns: repeat(100%, 100%);
+ grid-auto-rows: 210px;
+ grid-auto-columns: 90%;
+ column-gap: 5px;
+ row-gap: 5px;
+ border-radius: 5px;
+ margin-left: 10%;
+ padding: 5px;
+ font-display: courser;
+ width: 30%;
+ height: 200%;
+ align-items: center;
+ align-self: center;
+}
+
+.main > div {
+   /* border: 1px solid black; */
+    column-gap: 5em;
+    border-radius: 10px;
+    justify-items: center;
+    justify-content: center;
+
+    
+}
+.One {
+    background-image: url(./1.jpg);
+    background-size: cover;
+    align-self: stretch;
+    
+}
+
+.Two {
+    background-image: url(./2.jpg);
+    background-size: cover;
+    align-self: stretch;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.Three {
+    background-image: url(./3.jpg);
+    background-size: cover;
+    align-self: stretch;
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+.Four {
+    background-image: url(./4.jpg);
+    background-size: cover;
+    align-self: stretch;
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+.Five {
+    align-self: stretch;
+    background-image: url(./5.jpg);
+    background-size: cover;
+    background-position-y: 15%;
+  
+}
+.Six {
+    background-image: url(./6.jpg);
+    background-size: cover;
+    align-self: stretch;
+    grid-column: 3/4;
+    grid-row: 3/5;
+   
+}
+.Seven {
+   background-image: url(./7.jpg);
+   background-size: cover;
+   background-position-y: 50%;
+   align-self: stretch;
+   grid-column: 1/3;
+    
+}
+.Eight {
+   background-image: url(./8.jpg);
+   background-size: cover;
+   align-self: stretch;
+   grid-column: 1/2;
+   grid-row: 5/7;
+}
+.Nine {
+  background-image: url(./9.jpg);
+  background-size: cover;
+   background-position-y: 45%;
+  align-self: stretch;
+}
+.Ten {
+  background-image: url(./11.jpg);
+  background-size: cover;
+  align-self: stretch;
+}
+.Eleven {
+   background-image: url(./10.jpg);
+   background-size: cover;
+   align-self: stretch;
+   grid-column: 3/4;
+   grid-row: 5/7;
+}
